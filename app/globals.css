@@ -24,20 +24,45 @@
 @font-face {
   font-family: "SF Pro Bold";
   src: url("/fonts/SF Pro Text/SF-Pro-Text-Bold.otf") format("otf");
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("/fonts/Neue Montreal/NeueMontreal-Regular.otf") format("otf");
   font-weight: normal;
   font-style: normal;
 }
 
-body {
-  font-family: "SF Pro", -apple-system, BlinkMacSystemFont, sans-serif;
+@font-face {
+  font-family: "Neue Montreal Bold";
+  src: url("/fonts/Neue Montreal/NeueMontreal-Bold.otf") format("otf");
+  font-weight: bold;
+  font-style: bold;
 }
 
 body {
+  font-family: "SF Pro", -apple-system, BlinkMacSystemFont, sans-serif;
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.font-sf {
+  font-family: "SF Pro", Arial, Helvetica, sans-serif;
+}
+
 .font-bold {
   font-family: "SF Pro Bold", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.font-neue {
+  font-family: "Neue Montreal", Arial, Helvetica, sans-serif;
+}
+
+.font-neue-bold {
+  font-family: "Neue Montreal", Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
