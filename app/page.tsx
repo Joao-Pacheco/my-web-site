@@ -1,6 +1,15 @@
+"use client";
 import Image from "next/image";
 
 export default function Home() {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/docs/Joao Pacheco dos Santos EN.pdf";
+    link.download = "Joao Pacheco dos Santos EN.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <>
       <Image
@@ -20,7 +29,10 @@ export default function Home() {
             </button>
             <div>
               <button className="text-[#8D9A91] text-sm font-bold">EN</button>
-              <button className="bg-[#8D9A91] text-white text-xs rounded-full px-7 py-2 ml-4 font-bold shadow-lg">
+              <button
+                onClick={handleDownload}
+                className="bg-[#8D9A91] text-white text-xs rounded-full px-7 py-2 ml-4 font-bold shadow-lg"
+              >
                 RESUME
               </button>
             </div>
