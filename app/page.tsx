@@ -25,8 +25,8 @@ export default function Home() {
         alt={"Cover"}
         className="absolute top-0 left-0 z-[-1]"
       />
-      <div className="absolute top-0 left-0 w-full h-screen max-md:m-2 max-md:w-[calc(100vw-20px)] ">
-        <div className="container mx-auto mt-10 px-6 py-4 bg-white rounded-md h-[calc(100vh-80px)] max-w-7xl shadow-lg max-md:mt-5 max-md:h-[calc(100vh-40px)]">
+      <div className="absolute top-0 left-0 w-full md:h-screen max-md:m-2 max-md:w-[calc(100vw-20px)]">
+        <div className="container mx-auto mt-10 px-6 py-4 bg-white rounded-md h-[calc(100vh-80px)] max-w-7xl shadow-lg max-md:mt-5 max-md:px-4 max-md:py-4 max-md:h-fit max-md:pb-10">
           <div
             className={`flex ${
               showContact ? "justify-between" : "justify-end"
@@ -49,14 +49,14 @@ export default function Home() {
               </button>
             </div>
           </div>
-          <div className="flex justify-center items-center h-full max-md:flex-col">
+          <div className="flex justify-center items-center h-full max-md:flex-col max-md:justify-around">
             <div className="md:flex-1 max-md:w-full">
-              <div className="flex flex-col items-left mx-auto pl-[15%] max-md:pl-0 max-md:mt-0 max-md:mb-[25%]">
-                <h1 className="text-6xl text-[#8D9A91] font-neue-bold max-md:text-5xl">
+              <div className="flex flex-col items-left mx-auto pl-[15%] max-md:pl-0 max-md:my-10 ">
+                <h1 className="text-6xl text-[#8D9A91] font-neue-bold max-md:text-5xl max-sm:text-4xl w-[85%]">
                   João Pacheco.
+                  <div className="border-b border-[2px] border-[#8D9A91] mt-1"></div>
                 </h1>
-                <div className="border-b border-[2px] border-[#8D9A91] w-[80%] mt-1"></div>
-                <p className="text-[#8D9A91] text-4xl mt-2 font-neue">
+                <p className="text-[#8D9A91] text-4xl mt-2 font-neue max-md:text-xl">
                   A Senior Front-end
                 </p>
               </div>
