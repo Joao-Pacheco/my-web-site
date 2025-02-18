@@ -56,12 +56,12 @@ export default function MySkills() {
                     • Proven Track Record of Impactful Contributions
                   </h3>
                   <p className="leading-relaxed">
-                    At F1rst Digital Services, I play a key role in Santander's
-                    fintech, Empréstimo Sim, driving technical decisions and
-                    optimizing architectures for scalability. Previously, I
-                    delivered high-quality payment solutions for Uber at Pagtel
-                    and led the development of Shopstar, a Peruvian e-commerce
-                    platform at CoreBiz.
+                    At F1rst Digital Services, I play a key role in
+                    Santander&apos;s fintech, Empréstimo Sim, driving technical
+                    decisions and optimizing architectures for scalability.
+                    Previously, I delivered high-quality payment solutions for
+                    Uber at Pagtel and led the development of Shopstar, a
+                    Peruvian e-commerce platform at CoreBiz.
                   </p>
                 </li>
                 <li className="mb-10">
@@ -69,7 +69,7 @@ export default function MySkills() {
                     • Collaboration & Continuous Improvement
                   </h3>
                   <p className="leading-relaxed">
-                    I don’t just write code—I analyze, refine, and enhance
+                    I don&apos;t just write code—I analyze, refine, and enhance
                     digital experiences. Whether through in-person training for
                     international teams or leading discussions on product
                     decisions, I ensure that my work not only meets but exceeds
@@ -81,7 +81,7 @@ export default function MySkills() {
           </div>
           <div className="w-full text-black text-6xl font-neue-light text-center  leading-[1.2]">
             Innovative solutions, clean code, and a passion for
-            performance—that's what makes my work unique.
+            performance—that&apos;s what makes my work unique.
           </div>
         </div>
       </div>
