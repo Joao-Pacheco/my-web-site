@@ -42,18 +42,24 @@
   font-style: bold;
 }
 
+@font-face {
+  font-family: "Neue Montreal Light";
+  src: url("/fonts/Neue Montreal/NeueMontreal-Light.otf") format("otf");
+  font-weight: bold;
+  font-style: bold;
+}
+
 body {
   font-family: "SF Pro", -apple-system, BlinkMacSystemFont, sans-serif;
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .font-sf {
   font-family: "SF Pro", Arial, Helvetica, sans-serif;
 }
 
-.font-bold {
+.font-sf-bold {
   font-family: "SF Pro Bold", Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
@@ -65,4 +71,9 @@ body {
 .font-neue-bold {
   font-family: "Neue Montreal", Arial, Helvetica, sans-serif;
   font-weight: bold;
+}
+
+.font-neue-light {
+  font-family: "Neue Montreal", Arial, Helvetica, sans-serif;
+  font-weight: lighter;
 }
