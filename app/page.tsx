@@ -13,8 +13,8 @@ export default function Home() {
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/docs/Joao Pacheco dos Santos EN.pdf";
-    link.download = "Joao Pacheco dos Santos EN.pdf";
+    link.href = "/docs/João Pacheco En Resume.pdf";
+    link.download = "João Pacheco En Resume.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
